@@ -1,25 +1,126 @@
 body {
-    margin-top: 50px;
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
 }
 
-.container {
-    max-width: 900px;
+.landing-page {
+    width: 100%;
+    position: relative;
+}
+
+.landing-page img {
+    width: 100%;
+}
+
+.landing-page header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.container-left {
+    width: 33%;
+    margin: auto;
+    display: inline-block;
+}
+
+.container-right {
+    width: 66%;
+    margin: auto;
+    display: inline-block;
+}
+
+.logo {
+    width: 67px;
+    background-color: #11749e;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 18px 0;
+    text-align: center;
+    box-shadow: 10px 10px;
     margin: auto;
 }
 
-.wrapper {
-    width: 20%;
-    height: 300px;
-    margin: 2%;
-    box-shadow: 0px 0px 10px grey;
-    display:inline-block;
+.container-right ul,
+li,
+a {
+    display: inline;
 }
 
-.wrapper h2 {
-    font-size: 30px;
-    line-height: 36px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.container-right a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0 5px 40px 5px;
+    margin: 0 5px;
+}
+
+.container-right .menu a:hover,
+a:active {
+    border-bottom: 3px solid #11749e;
+}
+
+.container-right i {
+    font-size: 20px;
+}
+
+.container-right .fa-bars {
+    display: none;
+}
+
+.wrapper {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper h1 {
+    font-size: 153px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #11749e;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 15px;
+    margin-bottom: 120px;
+}
+
+.wrapper h5 {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     text-align: center;
-    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.scroll-down {
+    width: 67px;
+    height: 67px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+}
+
+.fa-chevron-down {
+    padding: 40% 0;
 }
